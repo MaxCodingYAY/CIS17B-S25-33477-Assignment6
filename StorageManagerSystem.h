@@ -87,12 +87,15 @@ public:
         }
     }
 
-
+    // returns lists of stored items, sorted by description alphabetically
     std::vector<std::shared_ptr<StoredItem>> listItemsByDescription() const {
         std::vector<std::shared_ptr<StoredItem>> items;
+        // loop through map to store items by descripition
         for (const auto& pair : itemByDescription) {
-            items.push_back(pair.second);
+            items.push_back(pair.second); //add each shared_ptr to vector
         }
+
+        //return the list of items
         return items;
     }
 };
