@@ -5,3 +5,6 @@ In contrast, the description and location fields can contain any values. Once an
 The "Remove" and "Find" buttons allow users to locate or delete items by entering the corresponding item ID.
 
 ![image](https://github.com/user-attachments/assets/2fcc5661-8773-4207-9137-d67633a11cab)
+
+
+![image](https://github.com/user-attachments/assets/0a803f4e-68cb-4da0-9422-6bab26da5c57)
